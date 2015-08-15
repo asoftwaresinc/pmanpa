@@ -37,17 +37,18 @@
   <gap:plugin name="org.apache.cordova.splashscreen"/>
   <gap:plugin name="org.apache.cordova.vibration"/>
   <icon src="icon.png"/>
-  <icon src="www/icon.png" gap:platform="android" gap:qualifier="ldpi"/>
+  <preference name="SplashScreenDelay" value="6000" />
+<!--   <icon src="www/icon.png" gap:platform="android" gap:qualifier="ldpi"/>
   <icon src="www/icon.png" gap:platform="android" gap:qualifier="mdpi"/>
   <icon src="www/icon.png" gap:platform="android" gap:qualifier="hdpi"/>
   <icon src="www/icon.png" gap:platform="android" gap:qualifier="xhdpi"/>
-
-  <preference name="SplashScreenDelay" value="6000" />
-  <gap:splash src="www/res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:qualifier="port-ldpi"/>
+ -->
+<!--   <gap:splash src="www/res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:qualifier="port-ldpi"/>
   <gap:splash src="www/res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:qualifier="port-mdpi"/>
   <gap:splash src="www/res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:qualifier="port-hdpi"/>
   <gap:splash src="www/res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:qualifier="port-xhdpi"/>
-  <gap:splash src="splash.png" />
+ -->
+   <gap:splash src="splash.png" />
   
 
   <access origin="*"/>
