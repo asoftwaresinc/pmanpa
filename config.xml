@@ -48,7 +48,7 @@
   <gap:splash src="www/res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:qualifier="port-hdpi"/>
   <gap:splash src="www/res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:qualifier="port-xhdpi"/>
  -->
-   <gap:splash src="splash.png" />
+   <gap:splash src="splash.jpg" />
   
 
   <access origin="*"/>
